@@ -25,7 +25,7 @@ app.config['MAX_CONTENT_LENGTH'] = 5 * 1024 * 1024
 CORS(app, 
      resources={
          r"/api/*": {
-             "origins": ["http://localhost:8000"],
+             "origins": ["https://papa329.github.io/CreditUs"],
              "methods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
              "allow_headers": ["Content-Type", "Authorization"]
          }
