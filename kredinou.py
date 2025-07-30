@@ -31,7 +31,7 @@ app.config.update({
 CORS(app, 
      resources={
          r"/api/*": {
-             "origins": ["http://localhost:8000", "https://papa329.github.io"],
+             "origins": ["http://localhost:8000", "https://papa329.github.io", "https://destinytch.com.ng"],
              "methods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
              "allow_headers": ["Content-Type", "Authorization"],
              "supports_credentials": True
